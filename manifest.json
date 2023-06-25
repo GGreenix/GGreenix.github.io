@@ -1,6 +1,6 @@
 {
-    "name": "soldout",
-    "short_name": "soldout",
+    "name": "pacha_website",
+    "short_name": "pacha_website",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
