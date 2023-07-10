@@ -1,6 +1,6 @@
 {
-    "name": "pacha_website",
-    "short_name": "pacha_website",
+    "name": "traffic_light_operator_interface_example",
+    "short_name": "traffic_light_operator_interface_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
