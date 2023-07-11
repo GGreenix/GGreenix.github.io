@@ -21560,11 +21560,12 @@ _.y=_.x=$
 _.a=null
 _.b=b
 _.c=null},
-a6Q:function a6Q(a,b,c,d){var _=this
+a6Q:function a6Q(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
 _.c=c
-_.d=d},
+_.d=d
+_.e=e},
 a6M:function a6M(a){this.a=a},
 a6L:function a6L(a,b){this.a=a
 this.b=b},
@@ -69494,17 +69495,17 @@ gEa(){var s=this.x
 return s===$?this.x=0:s},
 gEx(){var s=this.y
 return s===$?this.y=0:s},
-vD(){var s=this,r=s.d,q=s.e,p=s.f,o=s.r,n=r+q+p+o
-s.aj(new A.a6Q(s,n,r/n+q/n,p/n+o/n))},
+vD(){var s=this,r=s.d,q=s.e,p=s.f,o=s.r,n=r+q+p+o,m=r>q?r:q,l=p>o?p:o
+s.aj(new A.a6Q(s,m,l,r/n+q/n,p/n+o/n))},
 L(a){var s,r=this,q=null,p=A.R(a).ax,o=p.k2
 p=o==null?p.c:o
 o=t.E
 s=r.w
 return new A.vw(new A.rb(p,new A.Mr(q,q,1/0,56),q),A.RF(A.vv(A.a([A.S8(A.a([A.vv(A.a([A.dR(A.a1Q(A.DV(q,new A.es(4,B.bA,B.cN),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!1,q,q,q,"A lane traffic",q,q,q,q,q,q,q,q,q,q,q,q,q),new A.a6M(r)),q,250),A.dR(A.a1Q(A.DV(q,new A.es(4,B.bA,B.cN),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!1,q,q,q,"B lane traffic",q,q,q,q,q,q,q,q,q,q,q,q,q),new A.a6N(r)),q,250)],o),B.b1,B.bp,B.cn),A.vv(A.a([A.dR(A.a1Q(A.DV(q,new A.es(4,B.bA,B.cN),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!1,q,q,q,"C lane traffic",q,q,q,q,q,q,q,q,q,q,q,q,q),new A.a6O(r)),q,250),A.dR(A.a1Q(A.DV(q,new A.es(4,B.bA,B.cN),q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!1,q,q,q,"D lane traffic",q,q,q,q,q,q,q,q,q,q,q,q,q),new A.a6P(r)),q,250)],o),B.b1,B.bp,B.cn)],o),B.b1,B.bp,B.ds),A.S8(A.a([A.vv(A.a([A.dR(A.i4("A lane time: "+A.h(r.gEa()),q,q,q,s,q,q),q,250),A.dR(A.i4("B lane time: "+A.h(r.gEa()),q,q,q,s,q,q),q,250)],o),B.b1,B.bp,B.cn),A.vv(A.a([A.dR(A.i4("C lane time: "+A.h(r.gEx()),q,q,q,s,q,q),q,250),A.dR(A.i4("D lane time: "+A.h(r.gEx()),q,q,q,s,q,q),q,250)],o),B.b1,B.bp,B.cn)],o),B.b1,B.bp,B.ds)],o),B.b1,B.ET,B.cn),q,q),q)}}
 A.a6Q.prototype={
-$0(){var s=this,r=s.a,q=242-s.b
-r.x=Math.abs(Math.pow(1.02,q)-120)*s.c
-r.y=Math.abs(Math.pow(1.02,q)-120)*s.d},
+$0(){var s=this,r=s.a,q=242-(s.b+s.c)
+r.x=Math.abs(Math.pow(1.02,q)-120)*s.d
+r.y=Math.abs(Math.pow(1.02,q)-120)*s.e},
 $S:0}
 A.a6M.prototype={
 $1(a){var s=this.a
